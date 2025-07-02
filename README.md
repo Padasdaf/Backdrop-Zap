@@ -30,27 +30,13 @@ Make sure you have the following installed on your machine:
    2. Create the database in MySQL:
 
       ```sql
-      CREATE DATABASE removebgdb;
+      CREATE DATABASE backdropzapdb;
       ```
-   3. Edit `removebg/src/main/resources/application.properties`:
-
-      ```properties
-      # ClipDrop API
-      clipdrop.api.key=<YOUR_CLIPDROP_API_KEY>
-
-      # Razorpay
-      razorpay.key.id=<YOUR_RAZORPAY_KEY_ID>
-      razorpay.key.secret=<YOUR_RAZORPAY_SECRET>
-
-      # Clerk (auth)
-      clerk.issuer=<YOUR_CLERK_ISSUER>
-      clerk.jwks-url=<YOUR_CLERK_JWKS_URL>
-      clerk.webhook-secret=<YOUR_CLERK_WEBHOOK_SECRET>
-      ```
+   3. Edit `backdrop-zap-backend/src/main/resources/application.properties`:
    4. Run the application:
 
       ```bash
-      cd removebg
+      cd backdrop-zap-backend
       ./mvnw spring-boot:run
       ```
 
@@ -62,12 +48,7 @@ Make sure you have the following installed on your machine:
       ```bash
       npm install
       ```
-   3. Create or edit `client/.env`:
-
-      ```dotenv
-      VITE_CLERK_PUBLISHABLE_KEY=<YOUR_CLERK_PUBLISHABLE_KEY>
-      VITE_RAZORPAY_KEY_ID=<YOUR_RAZORPAY_KEY_ID>
-      ```
+   3. Create or edit `Backdrop Zap/.env`:
    4. Start the dev server:
 
       ```bash
