@@ -17,11 +17,11 @@ Make sure you have the following installed on your machine:
 ## Quick Start
 
 1. **Download the files**
-   Clone this repository or download the ZIP, then open the `backdropzap` folder:
+   Clone this repository or download the ZIP, then open the `Backdrop-Zap` folder:
 
    ```bash
-   git clone https://github.com/<your-username>/backdrop-zap.git
-   cd backdropzap
+   git clone https://github.com/<your-username>/Backdrop-Zap.git
+   cd Backdrop-Zap
    ```
 
 2. **Back-end setup**
@@ -42,7 +42,7 @@ Make sure you have the following installed on your machine:
 
 3. **Front-end setup**
 
-   1. Open the `client` folder in VS Code (or your preferred editor).
+   1. Open the `Backdrop Zap` folder in VS Code (or your preferred editor).
    2. Install dependencies:
 
       ```bash
