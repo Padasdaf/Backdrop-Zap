@@ -22,7 +22,7 @@
       ```sql
       CREATE DATABASE backdropzapdb;
       ```
-   3. Edit `backdrop-zap-backend/src/main/resources/application.properties`:
+   3. Edit `backdrop-zap-backend/src/main/resources/application.properties` to add your keys and credentials.
    4. Run the application:
 
       ```bash
@@ -38,7 +38,7 @@
       ```bash
       npm install
       ```
-   3. Create or edit `Backdrop Zap/.env`:
+   3. Create or edit the `.env` file in the client directory to add your environment variables.
    4. Start the dev server:
 
       ```bash
@@ -46,7 +46,8 @@
       ```
 
 4. **View in your browser**
-   Navigate to:
+
+   Open:
 
    ```
    http://localhost:5173
