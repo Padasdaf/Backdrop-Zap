@@ -16,22 +16,23 @@ Make sure you have the following installed on your machine:
 
 ## Quick Start
 
-1. **Extract the project**
+1. **Download the files**
+   Clone this repository or download the ZIP, then open the `backdropzap` folder:
 
    ```bash
-   unzip project.zip
-   cd project
+   git clone https://github.com/<your-username>/backdrop-zap.git
+   cd backdropzap
    ```
 
 2. **Back-end setup**
 
-   1. Open the `removebg` folder (Spring Boot project) in IntelliJ IDEA (recommended).
-   2. In MySQL run:
+   1. Open the project in VS Code (or your preferred editor).
+   2. Create the database in MySQL:
 
       ```sql
       CREATE DATABASE removebgdb;
       ```
-   3. Edit `src/main/resources/application.properties`:
+   3. Edit `removebg/src/main/resources/application.properties`:
 
       ```properties
       # ClipDrop API
@@ -46,11 +47,16 @@ Make sure you have the following installed on your machine:
       clerk.jwks-url=<YOUR_CLERK_JWKS_URL>
       clerk.webhook-secret=<YOUR_CLERK_WEBHOOK_SECRET>
       ```
-   4. In IntelliJ run **RemovebgApplication.java**
+   4. Run the application:
+
+      ```bash
+      cd removebg
+      ./mvnw spring-boot:run
+      ```
 
 3. **Front-end setup**
 
-   1. Open the `client` folder in WebStorm or VS Code.
+   1. Open the `client` folder in VS Code (or your preferred editor).
    2. Install dependencies:
 
       ```bash
@@ -69,30 +75,8 @@ Make sure you have the following installed on your machine:
       ```
 
 4. **View in your browser**
-   Open:
+   Navigate to:
 
    ```
    http://localhost:5173
    ```
-
----
-
-## Folder Structure
-
-```
-Backdrop-Zap/
-├─ removebg/        # Spring Boot backend
-│  ├─ pom.xml
-│  └─ src/main/resources/application.properties
-└─ client/          # React/Vite front end
-   ├─ package.json
-   ├─ .env
-   └─ src/
-```
-
----
-
-## License
-
-© 2025 Daniel Hu
-All rights reserved.
