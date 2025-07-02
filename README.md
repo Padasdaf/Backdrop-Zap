@@ -4,20 +4,10 @@
 
 ---
 
-## Prerequisites
-
-Make sure you have the following installed on your machine:
-
-1. JDK 21
-2. Node.js v20.9.0
-3. MySQL Server
-
----
-
 ## Quick Start
 
 1. **Download the files**
-   Clone this repository or download the ZIP, then open the `Backdrop-Zap` folder:
+   Clone this repository, then open the `Backdrop-Zap` folder:
 
    ```bash
    git clone https://github.com/<your-username>/Backdrop-Zap.git
