@@ -1,6 +1,6 @@
 # Backdrop Zap
 
-**Backdrop Zap** is a full-stack background removal tool. It uses a React/Vite front end and a Spring Boot back end to deliver pixel-perfect transparent cutouts in seconds.
+**Backdrop Zap** is a full-stack background removal tool that delivers pixel-perfect, transparent cutouts in seconds.
 
 ---
 
